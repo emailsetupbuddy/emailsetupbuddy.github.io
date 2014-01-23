@@ -1,0 +1,8 @@
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less non_object_property_callError: Cannot call method \'slice\' of undefined in \\Users\\jaymiejones\\code\\emailsetupbuddy\\front-end\\public\\css\\less\\site.less on line null, column 0: \A  \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 
