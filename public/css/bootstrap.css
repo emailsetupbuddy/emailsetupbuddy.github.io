@@ -5971,6 +5971,9 @@ img {
   padding: 40px 0;
   z-index: 10;
 }
+.content p {
+  font-size: 14px;
+}
 .footer {
   font-size: 12px;
   padding: 20px 0;
@@ -5980,10 +5983,21 @@ img {
 .footer a {
   color: #999999;
 }
-.logo {
-  bottom: -325px;
-  left: 0;
-  position: absolute;
+.header-logo {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .header-logo {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    bottom: -325px;
+    left: 0;
+    position: absolute;
+    text-align: left;
+  }
 }
 .asterisk {
   color: red;
@@ -6008,4 +6022,9 @@ img {
 }
 .signup-actions {
   text-align: right;
+}
+@media screen and (max-width: 768px) {
+  .signup-actions .btn {
+    width: 100%;
+  }
 }
